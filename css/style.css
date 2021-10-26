@@ -10,8 +10,12 @@ header{
     align-items: center;
 }
 
-.nav_links, .nav_links:visited{
+.nav_links:link{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.nav_links:visited{
+    color:#0000EE;
 }
