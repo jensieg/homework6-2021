@@ -22,7 +22,7 @@ header{
 
 .card header{
     background: #288088;
-    border: solid 2px #45ADAD;
+    border: 2px solid #45ADAD;
     padding-top: 20px;
     padding-bottom: 20px;
     border-top-left-radius: 7px;
@@ -37,17 +37,15 @@ header{
 }
 
 .card{
-    display: flex;
-    flex-direction: row;
     flex-basis: 450px;
 }   
 
 .gallery{
     display: flex;
-    border: solid 10px #50C7C7;
+    border: 10px solid #50C7C7;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    flex-basis: 0 0 300px;
+    flex-basis: 300px;
 }
