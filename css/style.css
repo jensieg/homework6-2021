@@ -29,10 +29,21 @@ header{
     border-top-right-radius: 7px;
 }
 
-#pricing{
-    
+.pricing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-#card{
+.card{
+    display: flex;
+    flex-basis: 450px;
+}   
 
+.gallery{
+    display: flex;
+    border: solid 10px #50C7C7;
+    margin: 10px 10px 10px 10px;
+    flex-basis: 0 0 300px;
 }
