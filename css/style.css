@@ -42,6 +42,9 @@ header{
 
 .gallery{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     border: 10px solid #50C7C7;
     margin-top: 10px;
     margin-bottom: 10px;
