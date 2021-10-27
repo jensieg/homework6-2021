@@ -55,24 +55,6 @@ header{
     flex-basis: 300px;
 }
 
-#logo{
-    animation-name: logo_grow;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-}
-
-@-webkit-keyframes logo_grow{
-    from {
-      width: 50px;
-      opacity: 0;
-    }
-  
-    to {
-      width: 425px;
-      opacity: 1;
-    }
-  }
-
 @keyframes logo_grow{
     from {
       width: 50px;
@@ -85,10 +67,20 @@ header{
     }
   }
 
+#logo{
+    animation-name: logo_grow;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
 @media screen and (min-width:850px){
     header{
         flex-direction: row;
         justify-content: space-between;
+        position: sticky;
+        top: 0;
+	    min-height: 75px;
+	    width: 100%;
     }
 
     .nav_links{
@@ -98,10 +90,14 @@ header{
     .card{
         flex-basis: 250px;
     }
+
+    .card header{
+        position: static;
+    }
 }
 
 @media (prefers-reduced-motion) {
-    .logo{
+    #logo{
         animation: none;
     }
 }
@@ -135,5 +131,13 @@ header{
 
     .gallery{
         display: none;
+    }
+
+    .card li:nth-child(odd)::before {
+        content: "👍";   
+    }
+
+    .card li:nth-child(even)::after {
+        content: "👍";   
     }
 }
