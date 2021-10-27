@@ -87,7 +87,20 @@ header{
     header{
         flex-direction: row;
         justify-content: space-between;
+        position: fixed;
     }
 
+    .nav_links{
+        flex-direction: row;
+    }
 
+    .card{
+        flex-basis: 250px;
+    }
+}
+
+@media (prefers-reduced-motion) {
+    .logo{
+        animation: none;
+    }
 }
