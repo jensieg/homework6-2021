@@ -108,9 +108,7 @@ header{
     }
 }
 
-
-/*@media print*/
-@media screen and (min-width:1000px){
+@media print{
     
     .card_big {
         -webkit-transform: initial;
@@ -120,6 +118,10 @@ header{
     body{
         background-image: none;
     }
+
+    h2 #gallery{
+        display: none;
+      }
 
     header {
         display: flex;
