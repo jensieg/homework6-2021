@@ -116,10 +116,6 @@ header{
         background-image: none;
     }
 
-    nav {
-        width: 100%;
-    }
-
     .nav_links{
         display: flex;
         flex-direction: row;
