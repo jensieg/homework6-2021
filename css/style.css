@@ -87,7 +87,6 @@ header{
     header{
         flex-direction: row;
         justify-content: space-between;
-        position: fixed;
     }
 
     .nav_links{
