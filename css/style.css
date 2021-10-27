@@ -122,7 +122,9 @@ header{
     }
 
     header {
-        align-items: stretch;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #logo {
