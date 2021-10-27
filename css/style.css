@@ -13,7 +13,7 @@ header{
 .nav_links{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .nav_item a{
@@ -55,7 +55,7 @@ header{
     flex-basis: 300px;
 }
 
-.logo{
+#logo{
     animation-name: logo_grow;
     animation-duration: 5s;
     animation-iteration-count: 1;
