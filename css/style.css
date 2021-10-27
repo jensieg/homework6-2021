@@ -116,15 +116,6 @@ header{
         background-image: none;
     }
 
-    header{
-        align-items: stretch;
-    }
-
-    #logo {
-        max-width: 450px;
-        margin: auto;
-    }
-
     nav {
         width: 100%;
     }
