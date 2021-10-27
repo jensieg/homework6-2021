@@ -2,16 +2,12 @@ body{
     font-family: 'Alegreya Sans SC', serif;
     background-image: url(".../images/concrete_seamless.png");
     background-color: #f1f1f1;
-    margin: 0;
-    padding: 0;
 }
 
 header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #fff;
-    border-bottom: 3px solid #50C7C7;
 }
 
 .nav_links{
@@ -20,7 +16,11 @@ header{
     align-items: center;
 }
 
-.nav_item:visited{
+.nav_item a{
+    color: blue;
+}
+
+.skip a{
     color: blue;
 }
 
