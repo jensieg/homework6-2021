@@ -59,6 +59,18 @@ header{
     animation-iteration-count: 1;
 }
 
+@-webkit-keyframes logo_grow{
+    from {
+      width: 50px;
+      opacity: 0;
+    }
+  
+    to {
+      width: 425px;
+      opacity: 1;
+    }
+  }
+
 @keyframes logo_grow{
     from {
       width: 50px;
