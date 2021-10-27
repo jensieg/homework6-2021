@@ -112,8 +112,22 @@ header{
 /*@media print*/
 @media screen and (min-width:1000px){
     
+    .card_big {
+        -webkit-transform: initial;
+        transform: initial;
+    }
+
     body{
         background-image: none;
+    }
+
+    header {
+        align-items: stretch;
+    }
+
+    #logo {
+        max-width: 450px;
+        margin: auto;
     }
 
     .nav_links{
