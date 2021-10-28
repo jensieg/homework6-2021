@@ -119,7 +119,7 @@ header{
         background-image: none;
     }
 
-    h2 #gallery{
+    .gallery{
         display: none;
       }
 
