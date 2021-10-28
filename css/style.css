@@ -123,6 +123,10 @@ header{
         display: none;
       }
 
+    h2 #gallery{
+        display: none;
+    }
+
     header {
         display: flex;
         flex-direction: column;
