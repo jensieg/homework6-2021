@@ -119,13 +119,9 @@ header{
         background-image: none;
     }
 
-    .gallery{
+    .gallery, #gallery{
         display: none;
       }
-
-    h2 #gallery{
-        display: none;
-    }
 
     header {
         display: flex;
@@ -156,10 +152,6 @@ header{
     .card{
         border: 2px solid #45ADDD;
         flex-basis: 250px;
-    }
-
-    .gallery{
-        display: none;
     }
 
     .card li:nth-child(odd)::before {
